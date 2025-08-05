@@ -25,12 +25,29 @@ A function that arranges arithmetic problems vertically and side by side, making
   692      236      272      130
 ```
 
+### ✅ Project 2: Time Calculator
+**Status: Completed**
+
+A function that adds time durations and calculates start and end times for different days of the week.
+
+**Features:**
+- Add duration to start time with AM/PM format
+- Calculate day transitions (next day, n days later)
+- Optional day of week calculation
+- Handle multiple day spans
+
+**Example Usage:**
+```python
+add_time("3:00 PM", "3:10")        # Returns: 6:10 PM
+add_time("11:43 PM", "24:20")      # Returns: 12:03 AM (2 days later)
+add_time("3:00 PM", "3:10", "Monday")  # Returns: 6:10 PM, Monday
+```
+
 ### 🔄 Upcoming Projects
 
-1. **Time Calculator** - *Coming Soon*
-2. **Budget App** - *Coming Soon*  
-3. **Polygon Area Calculator** - *Coming Soon*
-4. **Probability Calculator** - *Coming Soon*
+1. **Budget App** - *Coming Soon*  
+2. **Polygon Area Calculator** - *Coming Soon*
+3. **Probability Calculator** - *Coming Soon*
 
 ## 🚀 Getting Started
 
@@ -63,7 +80,10 @@ freecodecamp-scientific-computing-python/
 │   ├── main.py
 │   ├── README.md
 │   └── tests/ (coming soon)
-├── 02-time-calculator/ (coming soon)
+├── 02-time-calculator/
+│   ├── main.py
+│   ├── README.md
+│   └── tests/ (coming soon)
 ├── 03-budget-app/ (coming soon)
 ├── 04-polygon-area-calculator/ (coming soon)
 ├── 05-probability-calculator/ (coming soon)
@@ -86,8 +106,8 @@ Through these projects, I'm developing skills in:
 - [x] Data Structures  
 - [x] Algorithms
 - [x] Object Oriented Programming
-- [ ] Project 1: Arithmetic Formatter ✅
-- [ ] Project 2: Time Calculator
+- [x] Project 1: Arithmetic Formatter ✅
+- [x] Project 2: Time Calculator ✅
 - [ ] Project 3: Budget App
 - [ ] Project 4: Polygon Area Calculator
 - [ ] Project 5: Probability Calculator
